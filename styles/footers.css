@@ -1,0 +1,49 @@
+/* Footers styles*/
+
+.footer {
+   background-color: #1c1c1c;
+   color: #b3b3b3;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-footer{
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.nav-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+.nav-footer a:hover {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+
+}
+ 
+.footer-copyr {
+    font-size: 1rem;
+    color: grey;
+    text-align: center;
+    padding: 12px;
+}

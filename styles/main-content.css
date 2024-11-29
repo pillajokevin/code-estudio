@@ -1,0 +1,123 @@
+/* Main content*/
+
+
+
+
+body {
+    font-family: 'Roboto' , sans-serif ;
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background: linear-gradient(to right, #3a3e48 , #000000);
+
+}
+
+/* text style*/
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-family: 'Ubuntu Condensed' , sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #cbcbcb;
+
+} 
+
+/* main buttons*/
+
+.main-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.main-buttons a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family: 'Ubuntu Condensed' , sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+/* sing-up*/
+.main-buttons .sing-up {
+    color: black;
+    transition: background-color 0.4s ease;
+    background-color: #00c851;
+
+}
+
+.main-buttons > .sing-up:hover {
+    background-color: #007e33;
+}
+
+/*learn-more*/
+
+.main-buttons .learn-more{
+    background-color: black;
+    color: white;
+    transition: background-color 0,4s ease;
+
+}
+
+.main-buttons > .learn-more:hover {
+    background-color: #c2c2b0;
+}
+
+/* img-container*/
+
+.content-img{
+    max-width: 45%;
+    text-align: center;
+}
+
+.content-img .text-row{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    justify-content: left;
+}
+
+.content-img  .h1 {
+    font-size: 2rem;
+    font-family: 'Ubuntu Condensed' , sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+    display: inline;
+
+}
+
+
+.content-img  h1 .blue-text {
+    color: #007bdd;
+    display: inline;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}

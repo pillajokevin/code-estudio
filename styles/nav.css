@@ -1,0 +1,203 @@
+.navigation-wrapper {
+    height: 100px;
+    background-color: #000000;
+    color: #cdcdcd;
+  /* flexbox container */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+}
+/* left column styles*/
+.navigation-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: bottom;
+
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 150px;
+    height: 100%;
+    margin-left: -60px;
+}
+/* Center column styles */
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 42px;
+    width: 500px;
+
+}
+
+.center-column > .button a{
+    color: yellow;
+    font-family: "Ubuntu Condensed" , sans-serif;
+    text-decoration: none;
+    font-size: 2rem;
+    
+    
+}
+
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links-wrapper > .nav-link {
+    width: 50px;
+    text-align: center;
+    margin-block: 5px;
+   
+    
+}
+
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed" , sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.5rem;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: olivedrab;
+    letter-spacing: 2px;
+}
+
+/* spark */
+.navigation-wrapper > .dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .dropdown > .button-sp {
+    display: grid;
+    font-family: "Ubuntu Condensed"  , sans-serif;
+    color: #cbcbcb;
+    font-size: 1.5rem;
+    grid-gap: 10px;
+    background-color: black;
+    border:black;
+}
+
+.navigation-wrapper > .down-icon {
+    margin-left: 10px;
+}
+
+.navigation-wrapper > .down-icon i {
+    font-size: 2em;
+}
+
+.navigation-wrapper > .dropdown-content {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px (0, 0, 0, 0.4);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: grey;
+    padding: 5px;
+    text-decoration: none;
+}
+  
+.dropdown-content a:hover {
+    color: #cdcdcd;
+    background-color: #cea135;
+}
+
+/* right column  style*/
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+
+.right-column .create-sec {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+
+
+
+.right-column .create-sec > .button-cr {
+    background-color: grey; 
+    color: #c2c2b0; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.right-column .create-sec > .button-cr:hover {
+    background-color: yellow; 
+}
+
+.right-column .create-sec > i {
+    color: #cbcbcb; 
+    font-size: 16px;
+}
+
+/* Ícono de búsqueda */
+.right-column .search-icon > a {
+    color: #fff; 
+    font-size: 16px;
+}
+
+.right-column .search-icon > a:hover {
+    color: #0f0; 
+}
+
+/* Botones Login y Sign Up */
+.right-column .login > a{
+    background-color: grey;
+    color: #c2c2b0; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.right-column .sing > a {
+     background-color: grey; 
+    color: #c2c2b0; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-column .login > a:hover{
+  background-color: #555;
+}
+.right-column .sing > a:hover {
+    background-color: #555; 
+}
+
